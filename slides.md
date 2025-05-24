@@ -1,249 +1,776 @@
 ---
+# You can also start simply with 'default'
 theme: seriph
-layout: cover
-background: 'https://cover.sli.dev'
+# random image from a curated Unsplash collection by Anthony
+# like them? see https://unsplash.com/collections/94734566/slidev
+background: https://cover.sli.dev
+# some information about your slides (markdown enabled)
+title: Welcome to Slidev
+info: |
+  ## Slidev Starter Template
+  Presentation slides for developers.
+
+  Learn more at [Sli.dev](https://sli.dev)
+# apply unocss classes to the current slide
+class: text-center
+# https://sli.dev/features/drawing
+drawings:
+  persist: false
+# slide transition: https://sli.dev/guide/animations.html#slide-transitions
+transition: slide-left
+# enable MDC Syntax: https://sli.dev/features/mdc
+mdc: true
 ---
 
-# LETVANA – Rent Smarter, Live Better
+<h1 style="text-align: center">LETVANA <sup style="font-size: 0.5em; color: white;">Rent Smarter, Live Better</sup></h1>
+
+
 ### Brand & Product Strategy Overview  
-Prepared by: Althub Team 33  
-Date: May 2025
+
+**Date:** May 2025
+
+
+<div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
+  <b>Prepared by:</b> Althub Team 33 <carbon:arrow-right />
+</div>
+
+<div class="abs-br m-6 text-xl">
+  <button @click="$slidev.nav.openInEditor" title="Open in Editor" class="slidev-icon-btn">
+    <carbon:edit />
+  </button>
+  <a href="https://github.com/slidevjs/slidev" target="_blank" class="slidev-icon-btn">
+    <carbon:logo-github />
+  </a>
+</div>
+
+<!--
+The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
+-->
 
 ---
-
-# Product Overview
-
-**Product Name:** LETVANA  
-**Type:** Digital Rental Platform (Web + Mobile)  
-**Tagline:** Rent Smarter, Live Better  
-**Positioning:** A trusted, tech-first housing rental platform built for Nigerians.
-
-### Opening Statement:
-- A modern digital rental platform designed to transform the housing rental experience in Nigeria.  
-- Combines "Let" (to rent) and "Havana" (evoking lifestyle and community) to inspire a smarter, more seamless way to rent.
-
+transition: fade-out
 ---
+
+<br>
+<br>
+<br>
+<br>
+<br>
 
 # Problem Statement
 
-Renting properties in Nigeria, particularly in urban areas like Lagos and Abuja, is riddled with:
+Despite the existence of rental hubs in the market, renters still experience issues such as unreliable property information, scam, limited transparency around payments and agreements, no centralized digital hub to manage tenant–landlord relationships and agent monopoly. 
 
-- Unverified listings leading to scams and loss of trust.  
-- Lack of transparency in pricing and property conditions.  
-- Manual, time-consuming processes involving unreliable agents.
+
+This project seeks to address these pain points by creating a user-centered rental platform.
+
+<!--
+You can have `style` tag in markdown to override the style for the current page.
+Learn more: https://sli.dev/features/slide-scope-style
+-->
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
 
 ---
-
-# Solution Overview
-
-**LETVANA addresses these issues through:**
-
-- ✅ Verified Listings Only – eliminates fraud and builds trust.  
-- 💳 In-App Secure Payments – enables digital, traceable rent transactions.  
-- 💬 Tenant-Landlord Chat – streamlines communication and negotiations.  
-- 🎁 Referral and Loyalty System – incentivizes growth via word-of-mouth.  
-- 🛠 Maintenance Support & Escrow System – resolves issues efficiently and ensures fairness.
-
+transition: fade-out
+layout: left
 ---
 
-# Brand Identity Overview
+# Solution
 
-**Mission:**  
-To empower urban Nigerians to rent with confidence by providing a safe, transparent, and fully digital housing experience that eliminates fraud, simplifies processes, and enhances tenant-landlord trust.
+Build, grow and monetize a digital rental platform that simplifies renting for both tenants and landlords
 
-**Vision:**  
-To become Nigeria’s most trusted rental platform, redefining how people discover, pay for, and live in rented spaces—digitally, securely, and seamlessly.
+LETVANA addresses these issues through:
+
+
+- ✅	Verified Listings Only – eliminates fraud and builds trust.
+- ✅	In-App Secure Payments – enables digital, traceable rent transactions.
+- ✅	Tenant-Landlord Chat – streamlines communication and negotiations.
+- ✅	Referral and Loyalty System – incentivizes growth via word-of-mouth.
+- 🔒	Maintenance Support & Escrow System – resolves issues efficiently and ensures fairnes.
+
+<br>
+
+
+<style>
+h1 {
+  background-color: #7AC7C4;
+  background-image: linear-gradient(45deg, #7AC7C4 10%, #223344 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
+
+<!--
+Here is another comment.
+-->
+
+---
+transition: fade-out
+---
+
+# Brand Identity
+
+- Rendered in Satoshi Bold, the name ***“Letvana”*** appears clean and strong. The capital ***L*** gives the name presence, while the rest of the letters maintain a friendly and approachable tone. The unique fusion of Let which means ***"To Let”*** and Nirvana which means ***“a state of liberation and freedom from suffering”*** (which inspired the name) is reflected in the calm authority of the typography. 
 
 **Core Values:**
+- Trust: We ensure all listings are verified and secure to build user confidence.
+- Simplicity: We create a seamless rental journey from discovery to payment.
+- Transparency: No hidden fees or deceptive listings, what you see is what you get.
+- Empowerment: We equip tenants and landlords with tools and data to make informed decisions.
+- Innovation: We continuously improve through data-driven iterations and customer feedback.
 
-- **Trust:** Verified and secure listings  
-- **Simplicity:** Seamless journey from discovery to payment  
-- **Transparency:** No hidden fees or deceptive listings  
-- **Empowerment:** Tools & data for informed decisions  
-- **Innovation:** Continuous, user-led improvements  
+
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
+
+<!--
+Here is another comment.
+-->
+
 
 ---
+transition: slide-up
+---
 
-# Brand Voice, Personality & Style
+# Brand Voice, Tone & Personality
 
-**Voice:** Friendly, Transparent, Empowering
+**Voice:** Friendly, Transparent, Trustworthy
 
 **Tone:**
-- Professional yet relatable  
-- Warm & Empowering in user communication  
-- Professional & Precise for B2B/landlord messaging  
+- Professional yet relatable
+- Warm & Empowering in user communication.
+- Professional & Precise for B2B/landlord messaging.
 
-**Personality:**  
-Smart, Trustworthy, Approachable, Youthful
+**Positioning:** A trusted, tech-first housing rental platform built for Nigerians.
 
+**Personality:**  Smart, Trustworthy & Approachable
+
+> **Mission:** To empower urban Nigerians to rent with confidence by providing a safe, transparent, and fully digital housing experience that eliminates fraud, simplifies processes, and enhances tenant-landlord trust.
+
+<br>
+
+> **Vision:** To become Nigeria’s most trusted rental platform, redefining how people discover, pay for, and live in rented spaces—digitally, securely, and seamlessly.
+
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
+
+<!--
+Here is another comment.
+-->
+
+---
+transition: slide-left
+level: 2
 ---
 
 # Visual Identity & Design
 
-**Typography:**  
-Font Style & Color: _(Specify later)_  
-**Logo:**  
-Modern minimal design representing a smart key + digital home  
-**Imagery Style:**  
-Real people, urban environments, positive lifestyle moments, diverse age groups
+## Typography
+
+**Font Style:** Satoshi Bold  
+**Font Color:** Deep Navy `#223344`  
+*Symbolism:* Conveys trust, professionalism, and clarity — aligning with Letvana’s value proposition as a reliable rental platform.
+
+**Logo:** A fusion of a house silhouette and a peace symbol.
+
+## Imagery Style
+
+Use natural light and airy settings Feature home interiors and peaceful living scenes Incorporate happy, relaxed tenants/landlords in everyday situations Avoid clutter and heavy filters; prioritize realism and authenticity 
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
+
+
+---
+transition: slide-up
+level: 2
+---
+
+# Navigation
+
+Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/ui#navigation-bar)
+
+## Keyboard Shortcuts
+
+|                                                     |                             |
+| --------------------------------------------------- | --------------------------- |
+| <kbd>right</kbd> / <kbd>space</kbd>                 | next animation or slide     |
+| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
+| <kbd>up</kbd>                                       | previous slide              |
+| <kbd>down</kbd>                                     | next slide                  |
+
+<!-- https://sli.dev/guide/animations.html#click-animation -->
+<img
+  v-click
+  class="absolute -bottom-9 -left-7 w-80 opacity-50"
+  src="https://sli.dev/assets/arrow-bottom-left.svg"
+  alt=""
+/>
+<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
+
+---
+layout: two-cols
+layoutClass: gap-16
+---
+
+# Table of contents
+
+You can use the `Toc` component to generate a table of contents for your slides:
+
+```html
+<Toc minDepth="1" maxDepth="1" />
+```
+
+The title will be inferred from your slide content, or you can override it with `title` and `level` in your frontmatter.
+
+::right::
+
+<Toc text-sm minDepth="1" maxDepth="2" />
+
+---
+layout: image-right
+image: https://cover.sli.dev
+---
+
+# Code
+
+Use code snippets and get the highlighting directly, and even types hover!
+
+```ts {all|5|7|7-8|10|all} twoslash
+// TwoSlash enables TypeScript hover information
+// and errors in markdown code blocks
+// More at https://shiki.style/packages/twoslash
+
+import { computed, ref } from 'vue'
+
+const count = ref(0)
+const doubled = computed(() => count.value * 2)
+
+doubled.value = 2
+```
+
+<arrow v-click="[4, 5]" x1="350" y1="310" x2="195" y2="334" color="#953" width="2" arrowSize="1" />
+
+<!-- This allow you to embed external code blocks -->
+<<< @/snippets/external.ts#snippet
+
+<!-- Footer -->
+
+[Learn more](https://sli.dev/features/line-highlighting)
+
+<!-- Inline style -->
+<style>
+.footnotes-sep {
+  @apply mt-5 opacity-10;
+}
+.footnotes {
+  @apply text-sm opacity-75;
+}
+.footnote-backref {
+  display: none;
+}
+</style>
+
+<!--
+Notes can also sync with clicks
+
+[click] This will be highlighted after the first click
+
+[click] Highlighted with `count = ref(0)`
+
+[click:3] Last click (skip two clicks)
+-->
+
+---
+level: 2
+---
+
+# Shiki Magic Move
+
+Powered by [shiki-magic-move](https://shiki-magic-move.netlify.app/), Slidev supports animations across multiple code snippets.
+
+Add multiple code blocks and wrap them with <code>````md magic-move</code> (four backticks) to enable the magic move. For example:
+
+````md magic-move {lines: true}
+```ts {*|2|*}
+// step 1
+const author = reactive({
+  name: 'John Doe',
+  books: [
+    'Vue 2 - Advanced Guide',
+    'Vue 3 - Basic Guide',
+    'Vue 4 - The Mystery'
+  ]
+})
+```
+
+```ts {*|1-2|3-4|3-4,8}
+// step 2
+export default {
+  data() {
+    return {
+      author: {
+        name: 'John Doe',
+        books: [
+          'Vue 2 - Advanced Guide',
+          'Vue 3 - Basic Guide',
+          'Vue 4 - The Mystery'
+        ]
+      }
+    }
+  }
+}
+```
+
+```ts
+// step 3
+export default {
+  data: () => ({
+    author: {
+      name: 'John Doe',
+      books: [
+        'Vue 2 - Advanced Guide',
+        'Vue 3 - Basic Guide',
+        'Vue 4 - The Mystery'
+      ]
+    }
+  })
+}
+```
+
+Non-code blocks are ignored.
+
+```vue
+<!-- step 4 -->
+<script setup>
+const author = {
+  name: 'John Doe',
+  books: [
+    'Vue 2 - Advanced Guide',
+    'Vue 3 - Basic Guide',
+    'Vue 4 - The Mystery'
+  ]
+}
+</script>
+```
+````
 
 ---
 
-# Business Opportunity
+# Components
 
-- **Rental Transaction Commission:** 5–10% per rent payment  
-- **Listing Fees & Subscriptions:** Paid featured listings & management tools  
-- **Payment Service Fee:** 2–5% per transaction (e.g., Flutterwave, Paystack)  
-- **Value-Added Services:** Rent insurance, ID verification, furniture rentals  
-- **Data & Analytics:** Sell anonymized insights to developers, institutions  
+<div grid="~ cols-2 gap-4">
+<div>
 
-**Examples:**
+You can use Vue components directly inside your slides.
 
-| Source            | Rate                   | Example                     |
-|-------------------|------------------------|-----------------------------|
-| Commission        | 5% on transaction       | ₦50k on ₦500k rent          |
-| Featured Listing  | ₦2k to ₦5k weekly       | Visibility for landlords    |
-| Service Fee       | 2–3%                   | Via Flutterwave/Paystack    |
-| Ad Placement      | ₦1k–₦3k per click       | From large brands           |
+We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
 
-**Market Sizing:**
+```html
+<Counter :count="10" />
+```
 
-- **TAM:** 6–8M households × ₦1M/yr = ₦6–8T (~$15–20B)  
-- **SAM:** 3–4M households in Lagos city  
-- **SOM:** 3–5% = 100k–200k leases/yr = ₦2.5–₦5B in revenue
+<!-- ./components/Counter.vue -->
+<Counter :count="10" m="t-4" />
+
+Check out [the guides](https://sli.dev/builtin/components.html) for more.
+
+</div>
+<div>
+
+```html
+<Tweet id="1390115482657726468" />
+```
+
+<Tweet id="1390115482657726468" scale="0.65" />
+
+</div>
+</div>
+
+<!--
+Presenter note with **bold**, *italic*, and ~~striked~~ text.
+
+Also, HTML elements are valid:
+<div class="flex w-full">
+  <span style="flex-grow: 1;">Left content</span>
+  <span>Right content</span>
+</div>
+-->
+
+---
+class: px-20
+---
+
+# Themes
+
+Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for tools. Switching between themes by just **one edit** in your frontmatter:
+
+<div grid="~ cols-2 gap-2" m="t-2">
+
+```yaml
+---
+theme: default
+---
+```
+
+```yaml
+---
+theme: seriph
+---
+```
+
+<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-default/01.png?raw=true" alt="">
+
+<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-seriph/01.png?raw=true" alt="">
+
+</div>
+
+Read more about [How to use a theme](https://sli.dev/guide/theme-addon#use-theme) and
+check out the [Awesome Themes Gallery](https://sli.dev/resources/theme-gallery).
 
 ---
 
-# The Market
+# Clicks Animations
 
-**Target Audience:** Urban renters in Lagos
+You can add `v-click` to elements to add a click animation.
 
-### Segments:
+<div v-click>
 
-**Students (18–25):**  
-- Needs: Affordable, Wi-Fi, short leases  
-- Frustration: Monthly payment pressure
+This shows up when you click the slide:
 
-**Young Couples (25–35):**  
-- Needs: 1–2 bedroom homes, safety, schools  
-- Frustration: Hidden agent fees, unplanned costs
+```html
+<div v-click>This shows up when you click the slide.</div>
+```
 
-**Young Professionals (35–55):**  
-- Needs: Quality, furnished units, serviced housing  
-- Frustration: No receipts, outdated landlord practices
+</div>
 
-### User Stories
+<br>
 
-**Tenants:**
-> "I want direct listings, not agent hassles."
+<v-click>
 
-**Landlords:**
-> "Agents misrepresent me and inflate costs."
+The <span v-mark.red="3"><code>v-mark</code> directive</span>
+also allows you to add
+<span v-mark.circle.orange="4">inline marks</span>
+, powered by [Rough Notation](https://roughnotation.com/):
 
-**Letvana Promise:**
-- ✅ Verified users (ID, phone/email)
-- 💰 Secure payments
-- 🔒 Escrow for trust
+```html
+<span v-mark.underline.orange>inline markers</span>
+```
 
----
+</v-click>
 
-# User Personas
+<div mt-20 v-click>
 
-**Kelechi (25), NYSC Member**  
-- Need: Secure, affordable housing  
-- Frustration: Scam agents  
-- Goal: Trustworthy & fast move-in  
+[Learn more](https://sli.dev/guide/animations#click-animation)
 
-**Amaka (32), Working Mother**  
-- Need: Family-friendly area  
-- Frustration: Limited verified options  
-- Goal: Smooth rental process  
-
-**Tobi (28), Remote Worker**  
-- Need: Quiet, serviced apartment  
-- Frustration: Bad photos, unclear listings  
-- Goal: Book & pay digitally
+</div>
 
 ---
 
-# Product Roadmap (June – Oct 2025)
+# Motions
 
-- **June:** User Research, Personas, Wireframes  
-- **July–Aug:** MVP Dev (Auth, Listings, Chat, Payments)  
-- **Sept–Mid Oct:** QA, User Testing, Iteration  
-- **Late Oct:** Final Demo & Graduation
+Motion animations are powered by [@vueuse/motion](https://motion.vueuse.org/), triggered by `v-motion` directive.
+
+```html
+<div
+  v-motion
+  :initial="{ x: -80 }"
+  :enter="{ x: 0 }"
+  :click-3="{ x: 80 }"
+  :leave="{ x: 1000 }"
+>
+  Slidev
+</div>
+```
+
+<div class="w-60 relative">
+  <div class="relative w-40 h-40">
+    <img
+      v-motion
+      :initial="{ x: 800, y: -100, scale: 1.5, rotate: -50 }"
+      :enter="final"
+      class="absolute inset-0"
+      src="https://sli.dev/logo-square.png"
+      alt=""
+    />
+    <img
+      v-motion
+      :initial="{ y: 500, x: -100, scale: 2 }"
+      :enter="final"
+      class="absolute inset-0"
+      src="https://sli.dev/logo-circle.png"
+      alt=""
+    />
+    <img
+      v-motion
+      :initial="{ x: 600, y: 400, scale: 2, rotate: 100 }"
+      :enter="final"
+      class="absolute inset-0"
+      src="https://sli.dev/logo-triangle.png"
+      alt=""
+    />
+  </div>
+
+  <div
+    class="text-5xl absolute top-14 left-40 text-[#2B90B6] -z-1"
+    v-motion
+    :initial="{ x: -80, opacity: 0}"
+    :enter="{ x: 0, opacity: 1, transition: { delay: 2000, duration: 1000 } }">
+    Slidev
+  </div>
+</div>
+
+<!-- vue script setup scripts can be directly used in markdown, and will only affects current page -->
+<script setup lang="ts">
+const final = {
+  x: 0,
+  y: 0,
+  rotate: 0,
+  scale: 1,
+  transition: {
+    type: 'spring',
+    damping: 10,
+    stiffness: 20,
+    mass: 2
+  }
+}
+</script>
+
+<div
+  v-motion
+  :initial="{ x:35, y: 30, opacity: 0}"
+  :enter="{ y: 0, opacity: 1, transition: { delay: 3500 } }">
+
+[Learn more](https://sli.dev/guide/animations.html#motion)
+
+</div>
 
 ---
 
-# Internal Timelines by Sprint
+# LaTeX
 
-- **Sprint 1–2 (June):** Research, Personas, Prototypes  
-- **Sprint 3–6 (July–Aug):** Frontend/Backend, Payments, Analytics  
-- **Sprint 7–10 (Aug–Oct):** QA, Demos  
-- **Sprint 11–12 (Oct):** Final Presentation
+LaTeX is supported out-of-box. Powered by [KaTeX](https://katex.org/).
 
----
+<div h-3 />
 
-# Key Feature Coverage
+Inline $\sqrt{3x-1}+(1+x)^2$
 
-| S/N | Feature             | Description                                  | Priority |
-|-----|---------------------|----------------------------------------------|----------|
-| 1   | Property Search     | Location & keyword filters                   | High     |
-| 2   | Verified Listings   | ID checks & manual review                    | High     |
-| 3   | In-App Messaging    | Real-time tenant/landlord chat               | High     |
-| 4   | Rent Payment        | Integration with Paystack/Flutterwave        | High     |
-| 5   | Listing Management  | Dashboard for landlords                      | High     |
-| 6   | User Profiles       | Editable tenant & landlord profiles          | Medium   |
-| 7   | Notifications       | Rent due, message alerts                     | Medium   |
+Block
+$$ {1|3|all}
+\begin{aligned}
+\nabla \cdot \vec{E} &= \frac{\rho}{\varepsilon_0} \\
+\nabla \cdot \vec{B} &= 0 \\
+\nabla \times \vec{E} &= -\frac{\partial\vec{B}}{\partial t} \\
+\nabla \times \vec{B} &= \mu_0\vec{J} + \mu_0\varepsilon_0\frac{\partial\vec{E}}{\partial t}
+\end{aligned}
+$$
 
----
-
-# Feature Prioritization (MoSCoW)
-
-| Must-Have            | Should-Have     | Could-Have       | Won’t-Have     |
-|----------------------|------------------|-------------------|----------------|
-| Listings, Chat, Payments | Referrals, Maintenance | E-sign, Multilingual | Crypto, VR tours |
+[Learn more](https://sli.dev/features/latex)
 
 ---
 
-# Operations & Support
+# Diagrams
 
-**Support Channels:**
-- In-App Chat: 24/7  
-- Email: support@letvana.com  
-- SLA: 3hr response, 24hr resolution  
+You can create diagrams / graphs from textual descriptions, directly in your Markdown.
 
-**Onboarding:**
-- ID Verification (NIN/BVN/Passport)  
-- Video Tutorials + FAQ  
-- Self-Serve Dashboard
+<div class="grid grid-cols-4 gap-5 pt-4 -mb-6">
+
+```mermaid {scale: 0.5, alt: 'A simple sequence diagram'}
+sequenceDiagram
+    Alice->John: Hello John, how are you?
+    Note over Alice,John: A typical interaction
+```
+
+```mermaid {theme: 'neutral', scale: 0.8}
+graph TD
+B[Text] --> C{Decision}
+C -->|One| D[Result 1]
+C -->|Two| E[Result 2]
+```
+
+```mermaid
+mindmap
+  root((mindmap))
+    Origins
+      Long history
+      ::icon(fa fa-book)
+      Popularisation
+        British popular psychology author Tony Buzan
+    Research
+      On effectiveness<br/>and features
+      On Automatic creation
+        Uses
+            Creative techniques
+            Strategic planning
+            Argument mapping
+    Tools
+      Pen and paper
+      Mermaid
+```
+
+```plantuml {scale: 0.7}
+@startuml
+
+package "Some Group" {
+  HTTP - [First Component]
+  [Another Component]
+}
+
+node "Other Groups" {
+  FTP - [Second Component]
+  [First Component] --> FTP
+}
+
+cloud {
+  [Example 1]
+}
+
+database "MySql" {
+  folder "This is my folder" {
+    [Folder 3]
+  }
+  frame "Foo" {
+    [Frame 4]
+  }
+}
+
+[Another Component] --> [Example 1]
+[Example 1] --> [Folder 3]
+[Folder 3] --> [Frame 4]
+
+@enduml
+```
+
+</div>
+
+Learn more: [Mermaid Diagrams](https://sli.dev/features/mermaid) and [PlantUML Diagrams](https://sli.dev/features/plantuml)
+
+---
+foo: bar
+dragPos:
+  square: 691,32,167,_,-16
+---
+
+# Draggable Elements
+
+Double-click on the draggable elements to edit their positions.
+
+<br>
+
+###### Directive Usage
+
+```md
+<img v-drag="'square'" src="https://sli.dev/logo.png">
+```
+
+<br>
+
+###### Component Usage
+
+```md
+<v-drag text-3xl>
+  <div class="i-carbon:arrow-up" />
+  Use the `v-drag` component to have a draggable container!
+</v-drag>
+```
+
+<v-drag pos="662,197,261,_,-15">
+  <div text-center text-3xl border border-main rounded>
+    Double-click me!
+  </div>
+</v-drag>
+
+<img v-drag="'square'" src="https://sli.dev/logo.png">
+
+###### Draggable Arrow
+
+```md
+<v-drag-arrow two-way />
+```
+
+<v-drag-arrow pos="67,452,253,46" two-way op70 />
+
+---
+src: ./pages/imported-slides.md
+hide: false
+---
 
 ---
 
-# Metrics for Success
+# Monaco Editor
 
-- **User Adoption:**  
-  Goal: 1k by Aug/Sept, 100k by Year 3  
-- **Listings:**  
-  200+ in MVP, 5k+ by Year 3  
-- **Engagement:**  
-  10–20% lead-to-lease, strong repeat rate  
-- **Revenue:**  
-  500 leases × ₦500k × 5% = ₦12.5M  
-- **Efficiency:**  
-  Track CAC, LTV. Keep CAC < LTV
+Slidev provides built-in Monaco Editor support.
+
+Add `{monaco}` to the code block to turn it into an editor:
+
+```ts {monaco}
+import { ref } from 'vue'
+import { emptyArray } from './external'
+
+const arr = ref(emptyArray(10))
+```
+
+Use `{monaco-run}` to create an editor that can execute the code directly in the slide:
+
+```ts {monaco-run}
+import { version } from 'vue'
+import { emptyArray, sayHello } from './external'
+
+sayHello()
+console.log(`vue ${version}`)
+console.log(emptyArray<number>(10).reduce(fib => [...fib, fib.at(-1)! + fib.at(-2)!], [1, 1]))
+```
 
 ---
-
-# Summary & Next Steps
-
-- ✅ Finalize MVP Prototypes  
-- ✅ Lock Dev & QA Sprints  
-- ✅ Launch Waitlist  
-- ✅ Start Development – June 1, 2025  
-- 🎯 Target Demo – October 2025 Graduation
-
+layout: center
+class: text-center
 ---
 
-# Thank You  
-**Contact & Credits**
+# Learn More
+
+[Documentation](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/resources/showcases)
+
+<PoweredBySlidev mt-10 />
