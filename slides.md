@@ -1,12 +1,10 @@
 ---
-# You can also start simply with 'default'
 theme: seriph
 layout: cover
-backgroundImage: url (https://cover.sli.dev)
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
+background: 'https://cover.sli.dev'
 ---
-# LETVANA – Revolutionizing Urban Rentals in Nigeria
+
+# LETVANA – Rent Smarter, Live Better
 ### Brand & Product Strategy Overview  
 Prepared by: Althub Team 33  
 Date: May 2025
