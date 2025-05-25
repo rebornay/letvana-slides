@@ -49,7 +49,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 ---
 transition: fade-out
 layout: image-right
-image: https://cover.sli.dev
+image: https://img.freepik.com/free-photo/aerial-shot-colorful-buildings-surrounded-by-trees_181624-55147.jpg?uid=R80293182&ga=GA1.1.394281939.1719824985&semt=ais_hybrid&w=740
 ---
 
 <br>
@@ -388,7 +388,7 @@ h2 {
 ---
 transition: slide-up
 layout: image-left
-image: https://cover.sli.dev
+image: https://img.freepik.com/free-photo/male-employee-getting-used-his-new-office-job-along-with-female-colleagues_23-2149034604.jpg?uid=R80293182&ga=GA1.1.394281939.1719824985&semt=ais_hybrid&w=740
 level: 2
 ---
 
@@ -443,7 +443,7 @@ Initial target: renters in key corridors (Yaba, Surulere, Ikeja, Lekki).
 ---
 transition: slide-up
 layout: image-right
-image: https://cover.sli.dev
+image: https://img.freepik.com/free-photo/3d-smartphone-device-with-map-gps-technology_23-2150458977.jpg?uid=R80293182&ga=GA1.1.394281939.1719824985&semt=ais_hybrid&w=740
 level: 2
 ---
 
@@ -461,11 +461,11 @@ level: 2
 ---
 transition: slide-up
 layout: image-left
-image: https://cover.sli.dev
+image: https://img.freepik.com/premium-photo/airplane-flying-sea-against-sky-sunset_1048944-25362557.jpg?uid=R80293182&ga=GA1.1.394281939.1719824985&semt=ais_hybrid&w=740
 level: 2
 ---
 
-<br>
+
 <br>
 
 # Internal Timelines by Sprint
@@ -806,7 +806,7 @@ h1 {
 ---
 transition: slide-left
 layout: image-left
-image: https://cover.sli.dev
+image: https://img.freepik.com/premium-photo/bungalow-exterior-view_2649-112.jpg?uid=R80293182&ga=GA1.1.394281939.1719824985&semt=ais_hybrid&w=740
 level: 2
 ---
 
