@@ -461,7 +461,6 @@ level: 2
 ---
 transition: slide-up
 layout: image-left
-image: https://img.freepik.com/premium-photo/airplane-flying-sea-against-sky-sunset_1048944-25362557.jpg?uid=R80293182&ga=GA1.1.394281939.1719824985&semt=ais_hybrid&w=740
 level: 2
 ---
 
